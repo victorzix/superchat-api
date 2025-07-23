@@ -23,7 +23,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint --fix",
-      "jest --findRelatedTests --bail"
+      "jest --findRelatedTests --bail --passWithNoTests"
     ]
   },
   "dependencies": {
